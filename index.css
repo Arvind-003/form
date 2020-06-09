@@ -1,0 +1,52 @@
+body{
+	background-color: #262f84;
+	height: 100%;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+main{
+	box-sizing: border-box;
+	width: 40%;
+	background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+	margin-top: 5%;
+	margin-bottom:10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0 0 20px #74ADC8;
+	color: white;
+}
+header h1{
+		margin-top: 8vh;
+		color: #a0a0ff;
+}
+
+.form-container{
+		margin-bottom: 10%;
+
+}
+form div{
+	margin-top: 5%;
+}
+.common{
+	border:0px solid transparent;
+	background-color: transparent;
+	border-bottom: 2px solid white;
+	font-size: 1rem;
+	outline: none;
+}
+#mobile-number{
+	width: 50%;
+
+}
+label{
+	font-size: 1.2rem;
+}
+.sub input{
+	font-size: 1.2rem;
+	
+}
